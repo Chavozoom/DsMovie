@@ -6,6 +6,7 @@
     --white: #fff;
     --text-gray: #4A4A4A;
     --text-light-gray: #aaa;
+    --staryellow: #ffbb3a
 }
 
 *{
@@ -82,6 +83,29 @@ a, a:hover {
     font-size: 14px;
     font-weight: 700;
 }
+
+.decription-card-decripition-bottom img{
+    width: 22px;
+}
+
+.decription-card-decripition-bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.decription-card-decripition-bottom h4{
+    color: var(--staryellow);
+    font-size: 16px;
+    font-weight: 700;
+}
+.decription-card-decripition-bottom p{
+    font-size: 12px;
+    width: 400;
+    color: var(--text-light-gray);
+    margin-bottom: 10px;
+}
+
 .dsmovie-btn, .dsmovie-btn:hover{
     width: 180px;
     height: 40px;
